@@ -11,4 +11,4 @@ const mydata = mongoose.model('cats', schema);
 // kitty.save().then(() => console.log('testmeow'));
 // const kitty1=new mydata({name:"zhang3",age:1,health:"good"})
 // kitty1.save().then(()=>console.log("new schema writed"))
-mydata.find({name:'zhang'},(err,data)=>{console.log(data[0]._doc.name)})
+mydata.find({name:'zhang3'},(err,data)=>{console.log(data[0]._doc.name)})
